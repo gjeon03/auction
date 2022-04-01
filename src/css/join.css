@@ -1,0 +1,78 @@
+input{
+    height: 100%;
+}
+
+#form_join{
+    margin:50px;
+    border:solid 1px #ccc;
+}
+
+#join1{
+    float: left;
+    padding: 15px;
+    font-weight: 700;
+    height: 500px;
+}
+
+#join1 li{
+    padding:14px;
+    text-align: left;
+    margin-right: 10px;
+}
+
+#join2{
+    padding: 17px;
+}
+
+#join2 li{
+    padding:11.5px;
+    text-align: left;
+}
+
+#id1, #id2{
+    float: left;
+    margin-right: 10px;
+}
+
+#id3{
+    margin-top:4px;
+    font-size:13px;
+}
+
+#nick1{
+    float: left;
+    margin-right: 10px;
+}
+
+#must{
+    padding: 10px;
+    font-size:15px;
+    font-weight: 700;
+}
+
+#post {
+    width: 100px;
+    margin-bottom:5px;
+    margin-right:5px;
+}
+
+#ad{ 
+    min-height: 50px;
+    margin-top:2px;
+}
+
+#address_tx1 input{
+    width: 50%;
+    margin-bottom:5px;
+}
+
+#address_tx2 input{
+    width: 50%;
+}
+
+#join_btn button{
+    float: right;
+    margin-top:10px;
+    width: 150px;
+    height: 30px;
+}

@@ -1,0 +1,150 @@
+body {
+	margin:0;
+	padding:0;
+	background-repeat:repeat-x;
+	font-family:"돋움";
+	font-size:12px;
+	font-weight:normal;
+	color:#333333;
+}
+
+a {
+	text-decoration:none;
+}
+
+a:hover, a:visited, a:link, a:active {
+	font-family:"돋움";
+	font-size:12px;
+	font-weight:normal;
+	color:#555555;
+}
+
+ul, li {
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+.clear { clear:both; }
+
+.linespace_10 {
+	height:10px;
+}
+
+#wrap {
+	width:1500px;
+	margin-right: auto;
+	margin-left: auto;
+	/*min-width: 1500px;*/
+/*	border:solid 1px #00ff00; */
+}
+
+#header {
+	height:62px;
+/*	border:solid 1px #cccccc;  */
+	margin-top:16px;
+}
+
+#logo {
+	float:left;
+	margin-left:35px;
+    margin-top:5px;
+}
+
+#top_login {
+	float:right;
+	margin-right:20px;
+}
+
+#menu {
+	text-align: center;
+    font-size:25px;
+    margin-top:60px;
+    border-top:solid 1px #dddddd;
+    border-bottom:solid 1px #dddddd;
+	padding:15px;
+}
+
+#content {
+	overflow:hidden;
+	margin-top:56px;
+	width:100%;
+	min-height: 600px;
+}
+
+#content #sidebar {
+	margin-top:20px;
+	width:200px;
+	min-height:600px;
+	float:left;
+	border-right:solid 1px #dddddd;
+}
+
+#sidebar {
+	margin-top:20px;
+	width:200px;
+	min-height:600px;
+	float:left;
+	border-right:solid 1px #dddddd;
+}
+
+#left_menu {
+	width:92%;
+	height:270px;
+	margin-left:7px;
+}
+
+#left_menu ul li a{
+	font-size:20px;
+}
+
+#side_title{
+	font-weight: bold;
+	font-size:20px;
+    text-align: center;
+    padding:10px;
+	border-bottom:solid 1px #dddddd;
+}
+
+#left_menu ul{
+	padding-left:5px;
+	padding-top:10px;
+	padding-bottom:100px;
+/*	border-bottom:solid 1px #dddddd; */
+}
+
+#left_menu li{
+    border-bottom:solid 1px #dddddd;
+}
+
+#left_menu li{
+	padding:5px;
+}
+
+#section{
+    width:75%;
+    margin-top:20px;
+	margin-left: 230px;
+	min-height: 800px;
+}
+
+#section_title{
+	font-weight: bold;
+	font-size:20px;
+	padding:10px;
+	border-bottom:solid 1px #dddddd;
+}
+
+#main_img{
+	text-align: center;
+}
+
+#footer {
+	width: 100%;
+	min-height: 200px;
+	margin: 20px;
+}
+
+#note{
+    cursor: pointer;
+}

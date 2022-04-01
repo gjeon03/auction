@@ -1,0 +1,276 @@
+* {
+    margin: 0;
+    padding:0;
+}
+a{
+    text-decoration: none;
+    color:inherit;
+}
+
+.board_list_wrep{
+    padding: 50px;
+}
+
+.board_list_head,
+.board_list_body .board_item{
+    padding: 10px 0;
+}
+
+.board_list_head{
+    border-top: 2px solid green;
+    border-bottom: 1px solid #ccc;
+}
+
+.board_list_body .board_item{
+    border-bottom: 1px solid #ccc;
+}
+
+.board_list_head > div,
+.board_list_body .board_item > div {
+    display: inline-block;
+    text-align: center;
+    font-size: 14px;
+}
+
+.board_list_head > div {
+    font-weight: 600;
+}
+
+.board_list .num {
+    width: 5%;
+}
+
+.board_list .tit {
+    width: 60%;
+}
+
+.board_list .board_list_body div.tit {
+    text-align: left;
+}
+
+.board_list_body div.tit a:hover {
+    text-decoration: underline;
+}
+
+.board_list .writer {
+    width: 10%;
+}
+
+.board_list .date {
+    width: 15%;
+}
+
+.board_list .view {
+    width: 10%;
+}
+
+.writing button{
+    font-size:15px;
+    margin-top:10px;
+    margin-right: 10px;
+    float: right;
+    width: 70px;
+    height: 30px;
+}
+
+.paging {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.paging a{
+    display: inline-block;
+}
+
+.paging a.first {
+    padding:5px;
+    border-right: 1px solid #ccc;
+}
+
+.paging a.prev {
+    padding:5px;
+    border-right: 1px solid #ccc;
+}
+
+.paging a.num {
+    padding:5px;
+    border-right: 1px solid #ccc;
+}
+
+.paging a.next{
+    padding:5px;
+    border-right: 1px solid #ccc;
+}
+.paging a.last {
+    padding:5px;
+}
+
+#section{
+    float: left;
+    width: 70%;
+    margin-top:20px;
+    margin-left: 30px;
+    margin-right: 5px;
+	min-height: 800px;
+}
+
+#right{
+    float: right;
+    width: 10%;
+    margin-left: 10px;
+    margin:15px;
+}
+
+#cookie_goods {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 10px;
+    border:solid 1px green;
+    border-radius: 10px;
+}
+#cookie_goods_title {
+    text-align: center;
+    font-size:15px;
+    padding:3px;
+    border-bottom:solid 1px green;
+}
+
+#cookie_goods_body1{
+    height: 83%;
+    width: 100%;
+    overflow: hidden;
+}
+
+#cookie_goods_button {
+    height: 11%;
+    width: 100%;
+    border-top:solid 1px green;
+}
+
+#cookie_goods_down {
+    float: left;
+    text-align: center;
+    width: 50%;
+    border-right:solid 1px green;
+    cursor: pointer;
+    display: block;
+    font-weight: 1000;
+    color:green;
+}
+
+#cookie_goods_up {
+    text-align: center;
+    cursor: pointer;
+    display: block;
+    font-weight: 1000;
+    color:green;
+    background:rgb(204, 255, 128);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+#cookie_goods_body2 {
+    width: 103%;
+    height: 100%;
+    margin:6px;
+    float: center;
+    cursor: pointer;
+    display: block;
+    overflow-y:scroll;
+    overflow-x:hidden;
+    margin-right:3px;
+}
+
+#cookie_goods_body2 img{
+    width: 95%;
+    height: 80px;
+    border:solid 1px;
+}
+
+#cookie_text {
+    width: 100%;
+    height: 300px;
+    border:solid 1px green;
+    border-radius: 10px;
+}
+
+#cookie_text_title {
+    text-align: center;
+    font-size:15px;
+    padding:3px;
+    border-bottom:solid 1px green;
+}
+
+#cookie_text_body1{
+    height: 85%;
+    width: 100%;
+    overflow: hidden;
+}
+
+#cookie_text_button {
+    height: 11%;
+    width: 100%;
+    border-top:solid 1px green;
+}
+
+#cookie_text_down {
+    float: left;
+    text-align: center;
+    width: 50%;
+    border-right:solid 1px green;
+    cursor: pointer;
+    display: block;
+    font-weight: 1000;
+    color:green;
+}
+
+#cookie_text_up {
+    text-align: center;
+    cursor: pointer;
+    display: block;
+    font-weight: 1000;
+    color:green;
+    background:rgb(204, 255, 128);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+#cookie_text_body2 {
+    padding:5px;
+    height: 100%;
+    width: 100%;
+    overflow-y:scroll;
+    overflow-x:hidden;
+}
+
+.text_cookie2 {
+    border-bottom:solid 1px;
+    padding:2px;
+}
+
+#list_search{
+    margin-top:10px;
+    margin-bottom:10px;
+    padding:15px;
+    width: 100%;
+}
+
+#list_search1 select{
+	width:10%;
+	height:21px;
+	border:solid 1px #cccccc;
+    float: left;
+}
+
+#list_search2 input{
+	width:60%;
+	height:18px;
+	border:solid 1px #cccccc;
+    float: left;
+}
+
+#list_search3 input{
+	width:10%;
+	height:21px;
+	border:solid 1px #cccccc;
+}

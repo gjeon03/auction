@@ -1,0 +1,249 @@
+#writing_form{
+    padding:20px;
+}
+
+table.writing_list{
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 1px;
+    text-align: left;
+    line-height: 1.5;
+    border-top: 1px solid #ccc;
+}
+
+table.writing_list th {
+    width: 20%;
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    border-bottom: 1px solid #ccc;
+    background: #efefef;
+    font-size:15px;
+}
+
+table.writing_list td {
+    width: 80%;
+    padding: 10px;
+    vertical-align: top;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+table.writing_list tr td textarea{
+    resize: none;
+}
+
+#writing_text1 input{
+    width: 100%;
+}
+
+#writing_text2 button{
+    margin-left: 1px;
+    width: 20%;
+    height: 105px;
+}
+#writing_text3 textarea{
+    resize: none;
+}
+#writing_text4 select{
+    height: 30px;
+}
+
+#erm{
+    float: right;
+    margin-top:15px;
+    width: 100px;
+    height: 30px;
+}
+
+#view{
+    margin-top:20px;
+    padding:10px;
+}
+
+#view_top{
+    margin-bottom: 20px;
+    padding:5px;
+    border:solid 1px #ccc;
+    background: #efefef;
+}
+
+#view_title{
+    float: left;
+    font-size:15px;
+    border-right:solid 1px #ccc;
+    width:60%;
+    padding:5px;
+}
+
+#nickname{
+    float: left;
+    font-size:15px;
+    border-right:solid 1px #ccc;
+    width: auto;
+    min-width: 100px;
+    padding:5px;
+    text-align: center;
+}
+
+#views{
+    float: left;
+    font-size:15px;
+    border-right:solid 1px #ccc;
+    width: auto;
+    min-width: 100px;
+    padding:5px;
+    text-align: center;
+}
+
+#community_date{
+    font-size:15px;
+    width: auto;
+    padding:5px;
+    text-align: center;
+    margin-top:4px;
+}
+
+#view_main{
+    padding:5px;
+    border-bottom:solid #ccc;
+}
+
+#images {
+    width: 100%;
+    height: auto;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+#community_contents{
+    padding-bottom:50px;
+    min-height: 500px;
+}
+
+#view_bottom{
+    padding:5px;
+}
+
+#view_bottom button{
+    float: right;
+    width: 80px;
+}
+
+#view_comment{
+    margin-top:40px;
+    height: 100px;
+    background: #efefef;
+    width: 100%;
+}
+
+#view_comment th{
+    width: 80px;
+    height: 100%;
+    font-size:20px;
+    padding:10px;
+    float: left;
+    text-align: center;
+    margin-top:20px;
+}
+
+#view_comment td{
+    width: 95%;
+}
+
+#view_comment td textarea{
+    float: left;
+    margin-left: 10px;
+    resize:none
+}
+
+#ripple_btn{
+    float: right;
+    width: 110px;
+    height: 94px;
+    margin-top:3px;
+    margin-right:4px;
+}
+
+#bottom {
+    width: 100%;
+    min-height: 300px;
+}
+
+.my_button {
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+    background-color: #c9c9c9;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+input[type=file]{
+    display: none;
+}
+
+.imgs_wrap {
+
+    border: 1px solid #d8d8d8;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: 70px;;
+
+}
+
+.imgs_wrap img {
+    max-width: 20%;
+    max-height: 100%;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#ripple_title{
+    margin-top:30px;
+    font-size:30px;
+    padding:10px;
+}
+
+#ripple1{
+    margin-top:30px;
+    width: 98%;
+    height: auto;
+    font-size:15px;
+    padding:10px;
+    border:solid 1px;
+    background:#a7a7a7;
+}
+
+#ripple2{
+    padding:10px;
+    border:solid 1px;
+    height: 30px;
+    margin:5px;
+    background:#ffffff;
+}
+
+#ripple2 a{
+    margin-right: 10px;
+    font-size:15px;
+}
+
+#ripple_nick{
+    margin-left: 15px;
+    margin-top:15px;
+    float: left;
+    width: 150px;
+}
+
+#ripple_con{
+    float: left;
+}
+#ripple_date{
+    float: right;
+    margin-top:3px;
+    margin-right:10px;
+}
+

@@ -1,0 +1,9 @@
+#del_btn button{
+    margin:10px;
+    width: 150px;
+    height: 30px;
+}
+
+#del_btn a{
+    font-size:15px;
+}

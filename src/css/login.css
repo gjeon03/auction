@@ -1,0 +1,75 @@
+.login_section{
+    text-align: center;
+    margin-top:100px;
+    margin-left:300px;
+    margin-right:300px;
+    height: 350px;
+    border:1px solid #ccc;
+    padding:20px;
+}
+
+#auc_login{
+    float: left;
+    width: 600px;
+}
+
+.login_id{
+    padding:10px;
+}
+
+.login_pw{
+    padding:10px;
+}
+
+.login_btn{
+    padding:10px;
+}
+
+table{
+    padding: 20px;
+    margin-top:10px;
+}
+
+th {
+    width: 40px;
+    padding: 15px;
+    font-weight: bold;
+    vertical-align: top;
+    font-size:20px;
+    height: 40px;
+}
+
+td {
+    width: 90%;
+    padding: 5px;
+    vertical-align: top;
+}
+
+td input{
+    width: 90%;
+    height: 40px;
+    font-size:20px;
+}
+
+.cookie{
+    font-size:22px;
+}
+
+.login_btn input{
+    width: 300px;
+    height: 60px;
+    font-size:30px;
+    margin-bottom:10px;
+}
+
+#id_find{
+    cursor: pointer;
+}
+
+#password_find{
+    cursor: pointer;
+}
+
+#sns{
+    margin-top:35px;
+}

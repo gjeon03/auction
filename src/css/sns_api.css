@@ -1,0 +1,85 @@
+#title{
+    border-bottom:solid 2px green;
+    padding:10px;
+}
+
+input{
+    height: 100%;
+}
+
+#form_join1{
+    margin:50px;
+}
+
+table.detail1{
+    width: 1000px;
+    margin-left: 10px;
+    border-collapse: separate;
+    border-spacing: 1px;
+    text-align: left;
+    line-height: 1.5;
+    border-top: 1px solid #ccc;
+    border-right:1px solid #ccc;
+}
+
+table.detail1 th {
+    width: 30px;
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    border-bottom: 1px solid #ccc;
+    background: #efefef;
+}
+
+table.detail1 td {
+    width: 100px;
+    padding: 10px;
+    vertical-align: top;
+    border-bottom: 1px solid #ccc;
+}
+
+#detail_title2{
+    margin-top:30px;
+    padding:10px;
+    font-size:20px;
+    border-bottom:solid 1px #dddddd;
+    font-weight: 1000;
+}
+
+#detail2{
+    margin-top:30px;
+    padding:10px;
+    font-size:20px;
+    margin-bottom:100px;
+    min-height: 500px;
+}
+
+#ad_input{
+    margin-top:20px;
+}
+
+#post {
+    width: 100px;
+    margin-bottom:5px;
+    margin-right:5px;
+}
+
+#ad{ 
+    min-height: 50px;
+    margin-top:2px;
+}
+
+#address_tx1 input{
+    width: 50%;
+    margin-bottom:5px;
+}
+
+#address_tx2 input{
+    width: 50%;
+}
+
+#join_btn button{
+    margin-left: 800px;
+    width: 150px;
+    height: 30px;
+}

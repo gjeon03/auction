@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding:0;
+}
+a{
+    text-decoration: none;
+    color:inherit;
+    font-size:12px;
+}
+
+#note_main{
+    width: 550px;
+    height: 600px;
+    margin:25px;
+}
+
+#section_title{
+    padding:10px;
+}
+
+.board_list_wrep{
+    padding: 50px;
+}
+
+.board_list_head,
+.board_list_body .board_item{
+    padding: 5px 0;
+}
+
+.board_list_head{
+    border-top: 2px solid green;
+    border-bottom: 1px solid #ccc;
+    
+}
+
+.board_list_body .board_item{
+    border-bottom: 1px solid #ccc;
+    padding-left: 10px;
+}
+
+.board_list_head > div,
+.board_list_body .board_item > div {
+    display: inline-block;
+    text-align: center;
+    font-size: 12px;
+}
+
+.board_list_head > div {
+    font-weight: 600;
+}
+
+.board_list .check{
+    width: 5%;
+}
+
+.board_list .num {
+    width: 5%;
+}
+
+.board_list .tit {
+    width: 60%;
+}
+
+.board_list .board_list_body div.tit {
+    text-align: left;
+}
+
+.board_list_body div.tit a:hover {
+    text-decoration: underline;
+}
+
+.board_list .writer {
+    width: 10%;
+}
+
+.board_list .date {
+    width: 15%;
+    padding-left: 10px;
+}
+
+.wrter1 {
+    padding-left: 15px;
+}
+
+.date1 {
+    width: 15%;
+    padding-left: 20px;
+}
+
+.board_list .view {
+    width: 10%;
+}
+
+.writing button{
+    font-size:10px;
+    margin-top:10px;
+    margin-right: 10px;
+    float: right;
+    width: 70px;
+    height: 30px;
+}
+
+.paging {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.paging a{
+    display: inline-block;
+}
+
+.paging a.first {
+    padding:5px;
+    border-right: 1px solid #ccc;
+}
+
+.paging a.prev {
+    padding:5px;
+    border-right: 1px solid #ccc;
+}
+
+.paging a.num {
+    padding:5px;
+    border-right: 1px solid #ccc;
+}
+
+.paging a.next{
+    padding:5px;
+    border-right: 1px solid #ccc;
+}
+.paging a.last {
+    padding:5px;
+}

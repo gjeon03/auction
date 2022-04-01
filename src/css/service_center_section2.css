@@ -1,0 +1,59 @@
+#writing_form{
+    padding:20px;
+    border-top: 2px solid green;
+}
+
+table.writing_list{
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 1px;
+    text-align: left;
+    line-height: 1.5;
+    border-top: 1px solid #ccc;
+}
+
+table.writing_list th {
+    width: 30%;
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    border-bottom: 1px solid #ccc;
+    background: #efefef;
+    font-size:13px;
+}
+
+table.writing_list td {
+    width: 70%;
+    padding: 10px;
+    vertical-align: top;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+table.writing_list tr td textarea{
+    resize: none;
+}
+
+#writing_text1 input{
+    width: 100%;
+}
+
+#writing_text2 input{
+    width: 80%;
+    height: 50px;
+}
+#writing_text2 button{
+    margin-left: 5px;
+    width: 15%;
+    height: 55px;
+}
+#writing_text3 textarea{
+    resize: none;
+}
+
+#erm{
+    float: right;
+    margin-top:15px;
+    width: 100px;
+    height: 30px;
+}

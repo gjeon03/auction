@@ -1,0 +1,91 @@
+input{
+    height: 100%;
+}
+
+#form_modified{
+    margin:50px;
+    border:solid 1px #ccc;
+}
+
+#modified1{
+    float: left;
+    padding: 23px;
+    font-weight: 700;
+}
+
+#modified1 li{
+    padding:13px;
+    text-align: left;
+    font-size:15px;
+    margin-right: 10px;
+}
+
+#modified2{
+    padding: 23px;
+}
+
+#modified2 li{
+    padding:11px;
+    text-align: left;
+}
+
+#id1{
+    font-size:20px;
+}
+
+#username{
+    font-size:20px;
+}
+
+#id3{
+    margin-top:4px;
+    font-size:13px;
+}
+
+#nick1{
+    font-size:20px;
+}
+
+#must{
+    padding: 10px;
+    font-size:15px;
+    font-weight: 700;
+}
+
+#post {
+    width: 100px;
+    margin-bottom:5px;
+    margin-right:5px;
+}
+
+#ad{ 
+    min-height: 50px;
+    margin-top:2px;
+}
+
+#address_tx1 input{
+    width: 50%;
+    margin-bottom:5px;
+}
+
+#address_tx2 input{
+    width: 50%;
+}
+
+#modified_btn button{
+    float: right;
+    margin:10px;
+    width: 150px;
+    height: 30px;
+    font-size:15px;
+}
+
+#del_btn button{
+    margin:10px;
+    width: 85px;
+    height: 30px;
+}
+
+#del_btn a{
+    font-size:15px;
+}

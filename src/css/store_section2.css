@@ -1,0 +1,305 @@
+#goods_title{
+	font-weight: bold;
+	font-size:30px;
+	padding:10px;
+    border-bottom:solid 1px #dddddd;
+}
+
+#section_number{
+    width: 100%;
+}
+
+#img2{
+    padding:5px;
+    width:430px;
+    height: 570px;
+    float: left;
+}
+
+#goods{
+    margin-top:20px;
+    padding:10px;
+    height: 580px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border:solid 1px #ccc;
+}
+
+#goods_img2{
+    float: left;
+    padding:5px;
+    width: 120px;
+    height: 570px;
+    border:solid 1px #ccc;
+}
+
+#goods_img3{
+    margin:10px;
+    width: 100px;
+    height: 100px;
+    border:solid 1px #ccc;
+    background:rgb(233, 233, 233);
+    cursor: pointer;
+}
+
+#goods_img3 .img3{
+    width: 100px;
+    height: 100px;
+}
+
+#goods2{
+    width: 45%;
+    padding:10px;
+    float: left;
+    margin-left: 15px;
+}
+
+#goods_name{
+    padding:25px;
+    border-bottom:solid 1px #dddddd;
+    font-size:30px;
+    text-align: center;
+}
+
+#goods_time{
+    padding:20px;
+    border-bottom:solid 1px #dddddd;
+    text-align: center;
+}
+
+#goods_time1{
+    padding:5px;
+    font-size:25px;
+    float: left;
+}
+
+#goods_time2{
+    padding:5px;
+    font-size:25px;
+}
+#goods_time2 input{
+    height: 40px;
+    width: 300px;
+    text-align: right;
+    font-size:30px;
+}
+
+#goods_money{
+    padding:20px;
+    border-bottom:solid 1px #dddddd;
+    text-align: center;
+}
+
+#goods_money1{
+    padding:5px;
+    float: left;
+    font-size:25px;
+}
+
+#goods_money2{
+    padding:5px;
+    color:red;
+    font-size:25px;
+}
+
+#goods_bidding{
+    padding:10px;
+    margin-top: 120px;
+    text-align: center;
+    border:solid;
+}
+
+#bidding_money{
+    font-size:20px;
+}
+
+#bidding{
+    font-size:30px;
+    width: 300px;
+}
+
+#detail_title1{
+    font-weight: 1000;
+    padding:10px;
+    margin-top:50px;
+    font-size:20px;
+}
+
+table.detail1{
+    width: 100%;
+    margin-left: 10px;
+    border-collapse: separate;
+    border-spacing: 1px;
+    text-align: left;
+    line-height: 1.5;
+    border-top: 1px solid #ccc;
+    
+}
+
+table.detail1 th {
+    width: 150px;
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    border-bottom: 1px solid #ccc;
+    background: #efefef;
+}
+
+table.detail1 td {
+    width: 350px;
+    padding: 10px;
+    vertical-align: top;
+    border-bottom: 1px solid #ccc;
+}
+
+#detail_title2{
+    margin-top:30px;
+    padding:10px;
+    font-size:20px;
+    border-bottom:solid 1px #dddddd;
+    font-weight: 1000;
+}
+
+#detail2{
+    margin-top:30px;
+    padding:10px;
+    font-size:20px;
+    margin-bottom:100px;
+    min-height: 500px;
+}
+
+#view_comment{
+    margin-top:20px;
+    padding:10px;
+    height: 100px;
+    background: #efefef;
+}
+
+#view_comment th{
+    width: 70px;
+    height: 100%;
+    font-size:20px;
+    padding:10px;
+    float: left;
+    text-align: center;
+    margin-top:20px;
+}
+
+#view_comment td{
+    width: 1300px;
+}
+
+#view_comment td textarea{
+    float: left;
+    margin-left: 10px;
+    resize:none
+}
+
+#bottom {
+    width: 100%;
+    min-height: 300px;
+}
+
+#section{
+    float: left;
+    width: 85%;
+    margin-top:20px;
+    margin-left: 30px;
+    margin-right: 5px;
+    min-height: 800px;
+}
+
+#ripple_btn{
+    float: right;
+    width: 110px;
+    height: 98px;
+    margin-top:3px;
+    margin-right:4px;
+}
+
+#bottom {
+    width: 100%;
+    min-height: 300px;
+}
+
+.my_button {
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+    background-color: #c9c9c9;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+input[type=file]{
+    display: none;
+}
+
+.imgs_wrap {
+
+    border: 1px solid #d8d8d8;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: 70px;;
+
+}
+
+.imgs_wrap img {
+    max-width: 20%;
+    max-height: 100%;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#ripple_title{
+    margin-top:30px;
+    font-size:30px;
+    padding:10px;
+}
+
+#ripple1{
+    margin-top:30px;
+    width: 98%;
+    height: auto;
+    font-size:15px;
+    padding:10px;
+    border:solid 1px;
+    background:#a7a7a7;
+}
+
+#ripple2{
+    padding:10px;
+    border:solid 1px;
+    height: 30px;
+    margin:5px;
+    background:#ffffff;
+}
+
+#ripple2 a{
+    margin-right: 10px;
+    font-size:15px;
+}
+
+#ripple_nick{
+    margin-left: 15px;
+    margin-top:15px;
+    float: left;
+    width: 150px;
+}
+
+#ripple_con{
+    float: left;
+}
+#ripple_date{
+    float: right;
+    margin-top:3px;
+    margin-right:10px;
+}
+
+#min{
+    color:red;
+    margin-top:5px;
+}
